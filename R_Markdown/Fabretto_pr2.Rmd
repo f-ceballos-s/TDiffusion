@@ -1,0 +1,283 @@
+---
+title: | 
+  | Technology Diffusion Through Vocational Training of High School Students: 
+  | Experimental Evidence from Nicaragua 
+subtitle:   Fundación Padre Fabretto - University of Illinois at Urbana-Champaign
+author:  
+  - Federico Ceballos Sierra \newline
+  - \newline
+  - Mary Arends-Kuenning
+  - Anina Hewey
+date: "September 10th, 2020"
+fontsize: 8pt
+output:
+  beamer_presentation:
+    theme: "default"
+    colortheme: "dolphin"
+    slide_level: 2
+    keep_tex: yes
+mainfont: Garamond
+bibliography: C:/Users/fc3/Box Sync/Fabretto/Fabretto/R_Markdown/Fabretto.bib
+---
+
+```{r setup, include=FALSE}
+library(bibtex)
+library(knitr)
+library(png)
+library(grid)
+library(gridExtra)
+opts_chunk$set(echo = FALSE, fig.align="center")
+```
+
+# Background and motivation
+
+## Background
+
+### Tutorial Learning System (SAT) 
+
+* Created in 1974 by the Foundation for the Application and Teaching of Science (FUNDAEC) in Colombia.
+
+&nbsp;
+
+* Provides access to secondary, technical, and vocational education to rural youths.
+
+&nbsp;
+
+* Prepares students to start new entrepreneurial business ventures, continue their agricultural activities, and/or pursue higher education.
+
+&nbsp;
+
+* Has served over 300,000 youths in Colombia, Honduras, Guatemala, Ecuador, Brazil, and Nicaragua. 
+
+## Background
+
+### SAT in Nicaragua
+
+Since 2007, Fabretto has had more than 1,500 rural young people from over 50 communities graduate from its middle school training (third year of secondary school) and high school programs, training over 40 tutors on this methodology. 
+
+&nbsp;
+
+The SAT methodology is currently implemented through two programs: 
+
+&nbsp;
+
+1. Traditional 5-year rural high school program, leading to a high school diploma certified by MINED (SAT High School) 
+
+&nbsp;
+
+2. Technical training courses certified by the National Technological Institute (INATEC) (SATec).
+
+## Background
+
+### SATec, Inter-American Development Bank (IDB), and Tinker Foundation
+
+**SATec:** modification of the traditional SAT program to include the technical training courses. SATec provides 6- to 9-month technical courses in topics like sustainable farm management and agricultural skills.
+
+&nbsp;
+
+* **2016:** 1.8 million USD grant was awarded to Fabretto by IDB-MIF to roll-out SATec to new communities in the Nicaraguan Departments of Madriz, Nueva Segovia, and Autonomous Region of the South Caribbean Coast (RACCS), benefiting 1800 rural youths.
+
+&nbsp;
+
+* **2018:** 424,000 USD grant from Tinker Foundation was awarded to Fabretto Foundation for:
+  + Digitization of the SATec curriculum.
+  + **Empirical evaluation of the impact of SATec in served communities**.
+  
+## Motivation
+
+The innovations of SATec offer an opportunity to study the impact of a comprehensive technology diffusion program that consists of:
+
+1. Training of high school students, which increases their human capital, fosters entrepreneurship, and improves their hireability. Students are encouraged to pass on the information to their parents
+
+&nbsp;
+
+2. Diffusion of technology to farmers through the tutor-SATec student-parent channel.
+
+&nbsp;
+
+3. Bolstering technology adoption and improvement of living conditions in treated communities through the alleviation of credit and market constraints.
+
+*Within-family social learning is a previously unexplored channel of technology diffusion in the economic literature*
+
+# Literature review and contribution 
+
+## Literature review
+
+### SAT
+
+Decentralization of education [@stifel1982university], women empowerment [@murphy2008opening], school enrollment [@marshall2014alternative], social responsibility [@honeyman2010social].
+
+### Social learning and technology diffusion
+
+**Passive learning:** farmers are assumed to costlessly observe the technology as it is applied by their social network, and make the decision to adopt based on the updated expected profitability of the technology [@munshi2004social; @bandiera2006social]
+
+**Farmer-Promoter model:** trained extension agents (EAs) create a network of farmers who are expected to learn from them and transmit this knowledge to the farmers in their own network [@niu2018selective; @benyishay2019social; @shikuku2019information]
+
+### Within-family information transfer / Publich health literature
+
+Dissemination of information about Leshmaniasis from school children to parents in Brazil [@magalhaes2009dissemination].
+
+## Contribution
+
+* Diffusion and adoption of new technologies has been linked to improved quality of life [@birkhaeuser1991economic]. 
+
+* Potential of SATec to bolster technology adoption in treated municipalities leveraging the channel of teacher-student-parent.
+
+* Rather than finding a substitute we ask whether this channel can complement conventional forms of technology diffusion. Therefore,
+
+**Research question:** Can the teacher-student-parent channel of information exchange be leveraged for agricultural technology diffusion and adoption as a complement to conventional extension programs?
+
+### Sneak peak at the results
+
+**Students:** Increased knowledge of agricultural technologies covered ($\uparrow$ 7.19 pts) and accounting knowledge ($\uparrow$ 1.12 pts).
+
+**Parents:** Increased knowledge of agricultural technologies covered ($\uparrow$ 384 pts) and accounting knowledge ($\uparrow$ 0.77 pts), increased adoption of those technologies ($\uparrow$ 19%), and increased access to credit markets ($\uparrow$ 26%).
+
+# Methods
+
+## Experimental design
+
+### Selection into treatment and control
+
+* Nine schools chosen randomly within the department of Nueva Segovia, 3 treatment and 6 control, from a pool offered by the Ministry of Education (MinEd).
+
+* 25 students and their respective parents chosen randomly from each school.
+
+### Data
+
+* Face-to-face questionnaire for parents and students:
+  + Demographics
+  + Recent adoption of agricultural technologies
+  + Assets and income
+  + Access to credit and savings markets
+  + Social networks
+
+* Knowledge-based test testing the materials covered in the Integrated Management of the Agricultural Farm (MIPA):
+  + Agricultural technical knowledge: planting, fertilizing, harvesting. 26 points.
+  + Accounting knowledge. 10 points.
+  
+## Challenges 
+
+::: columns
+
+:::: column
+
+### 2018-2020 Nicaraguan Protests 
+
+National civil unrest in response to social security reforms proposed by President Daniel Ortega. This resulted in an attrition rate of almost 50%. We perform the following linear regression to test for attrition bias:
+
+$$Drop_i = T_i + y_{i,t=0} + \varepsilon_i$$
+
+![](C:/Users/fc3/Downloads/attr.png)
+
+::::
+
+:::: column
+
+### Covid-19 Pandemic
+
+Due to the covid pandemic we weren't able to conduct the endline survey, schedule for July, 2020.
+
+![](C:/Users/fc3/Downloads/ttm.png)
+
+::::
+
+:::
+
+
+
+
+
+
+## Summary statistics
+
+\centering
+
+![](C:/Users/fc3/Downloads/descriptive.png){height=85%}
+
+
+## Empirical methods
+
+### Comparison of means
+
+The baseline estimation is a comparison of treatment and control villages controlling for observed characteristics and baseline levels of the outcome variables:
+
+$$y_{i,t=1} = \alpha + \beta T_i + \gamma y_{i,t=0} + \rho X_{it=0} + \varepsilon_{it=1}$$
+
+$T_i$: Treatment variable. Binary.
+
+$X_{it}$: Individual- and household-level controls including: age, sex, educational level, household size, and male-headed household
+
+
+### Difference-in-differences
+
+We consider the possibility that our samples differ in some characteristics we do not observe. To account for this fact, we fit a difference-in-differences model that controls for schools-specific fixed effects of the form:
+
+$$y_{it} = \alpha + \beta_1 T_i + \beta_2 t_t + \beta_3 T_i \cdot t_t + \mu_s + \varepsilon_{it}$$
+$y_{it}$: Technical knowledge test score | Accounting knowledge test score | Adoption of agricultural technology | Access to credit markets
+
+$t_t$: Time. Binary.
+
+$\mu_s$: School-specific fixed effect
+
+# Results and discussion
+
+## Knowledge-based tests
+
+```{r, fig.width=10,fig.height=8}
+plot1 <- readPNG('C:/Users/fc3/Box Sync/Fabretto/Fabretto/Figures/mipa_sdt.png')
+plot2 <- readPNG('C:/Users/fc3/Box Sync/Fabretto/Fabretto/Figures/mipa_prt.png')
+
+grid.arrange(rasterGrob(plot1),rasterGrob(plot2),ncol=1)
+```
+
+##
+
+![](C:/Users/fc3/Downloads/mipa.png){height=90%}
+
+
+## Access to credit and adoption of agricultural technologies
+
+```{r, fig.width=10,fig.height=8}
+plot1 <- readPNG('C:/Users/fc3/Box Sync/Fabretto/Fabretto/Figures/adv_prt.png')
+plot2 <- readPNG('C:/Users/fc3/Box Sync/Fabretto/Fabretto/Figures/loan_prt.png')
+
+grid.arrange(rasterGrob(plot1),rasterGrob(plot2),ncol=1)
+```
+
+##
+
+![](C:/Users/fc3/Downloads/adv_loan.png)
+
+\hyperlink{botton 1}{\beamerbutton{Other outcomes}}
+\hypertarget{botton 2}{}
+
+## Heterogeneous effects
+
+![](C:/Users/fc3/Downloads/het.png){height=90%}
+
+## Conclusions
+
+* The teacher-student-parent is an effective channel of technology diffusion in settings where conventional extension systems are scarce.
+
+* There is information loss as information is transmitted from students to parents.
+
+* Within-family social learning has the potential of improving technology adoption in underserved rural communities.
+
+### Future work
+
+* Within-family technology diffusion in war-torn regions of Colombia to promote illicit crop substitution. 
+
+## Other outcomes
+
+![](C:/Users/fc3/Downloads/oth1.png){height=90%}
+
+\hypertarget{botton 1}{}
+
+##
+
+![](C:/Users/fc3/Downloads/oth2.png){height=90%}
+
+\hyperlink{botton 2}{\beamerbutton{Back}}
+
+# References
